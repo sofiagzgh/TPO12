@@ -7,17 +7,101 @@
 
     <title>LANG Instituto</title>
 
-    <!-- BOOTSTRAP CSS -->
+    <!-- BOOTSTRAP CSS & ICONS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- GOOGLE FONTS -->
     <link href="" rel="stylesheet" type="text/css"> 
     <!-- CSS -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/index.css">
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="/img/logo.png" alt="Lang Logo" width="30" height="24">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
     
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2 active" aria-current="page" href="index.html">
+                  <i class="bi bi-house-door-fill"></i> Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">
+                  <i class="bi bi-info-circle-fill"></i> Conocenos
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownCursos" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-mortarboard-fill"></i> Cursos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownCursos">
+                  <li><a class="dropdown-item" href="#">Idioma 1</a></li>
+                  <li><a class="dropdown-item" href="#">Idioma 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Ver todos los idiomas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownSedes" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-geo-alt-fill"></i> Sedes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownSedes">
+                  <li><a class="dropdown-item" href="#">Sede 1</a></li>
+                  <li><a class="dropdown-item" href="#">Sede 2</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Ver todas las sedes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">
+                  <i class="bi bi-headset"></i> Contacto
+                </a>
+              </li>
+            </ul>
+    
+            <ul class="navbar-nav ms-auto nav-flex-icons">
+              <li class="nav-item mx-2">
+                <a class="nav-link h5" href="" target="blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link h5" href="" target="blank">
+                  <i class="bi bi-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link h5" href="" target="blank">
+                  <i class="bi bi-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link h5" href="" target="blank">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <header>
       <!-- A la izquierda el logo que dirige a la misma home -->
       <div id="logo_home">
@@ -116,6 +200,7 @@
       </section>
 
     </footer>
+    
     <!-- BOOTSTRAP JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
