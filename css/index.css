@@ -1,0 +1,29 @@
+footer{
+    background-color: rgb(255, 193, 7);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    padding: 10px;
+    
+    }
+
+#logo{
+    height: 50px;
+    margin:10px;
+}
+
+
+ul{
+    list-style: none;
+    
+}
+
+.navbar-nav{    
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+}
