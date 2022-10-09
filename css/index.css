@@ -1,4 +1,4 @@
-footer{
+footer {
     background-color: rgb(255, 193, 7);
     display: flex;
     align-items: center;
@@ -6,24 +6,38 @@ footer{
     justify-content: space-between;
     height: auto;
     padding: 10px;
-    
-    }
 
-#logo{
+}
+
+#logo {
     height: 50px;
-    margin:10px;
+    margin: 10px;
 }
 
 
-ul{
+ul {
     list-style: none;
-    
+
 }
 
-.navbar-nav{    
+.navbar-nav {
     flex-direction: row;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
+/* MEDIA QUERY & CSS BREAKPOINTS */
+
+/*                mobile-first approach               */
+/* POR DEFECTO X-Small devices: Pantallas pequenias en vertical (portrait phones, HASTA 576px DE ANCHO) */
+
+/* Small devices: Pantallas pequenias en horizontal (landscape phones & tablets, A PARTIR DE 576px Y HASTA 991.98px DE ANCHO) */
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {}
+
+/* Medium devices: Pantallas medianas (small desktops, A PARTIR DE 768px Y HASTA 1200px DE ANCHO) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Large devices: Pantallas grandes (large desktops, A PARTIR DE 1200px DE ANCHO) */
+@media only screen and (min-width: 1200px) {}
