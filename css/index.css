@@ -1,3 +1,25 @@
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header .dropdown-menu {
+    border-width: 3px;
+    border-color: #000;
+    border-radius: 0;
+}
+
+header .dropdown-item:hover {
+    background-color: rgba(255, 193, 7, 0.486);
+    font-style: oblique;
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
+
 footer {
     background-color: rgb(255, 193, 7);
     display: flex;
@@ -15,17 +37,13 @@ footer {
 }
 
 
-ul {
+footer ul {
     list-style: none;
 
 }
 
-.navbar-nav {
+footer .navbar-nav {
     flex-direction: row;
-}
-
-a {
-    text-decoration: none;
 }
 
 /* MEDIA QUERY & CSS BREAKPOINTS */
