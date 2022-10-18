@@ -70,6 +70,7 @@ article {
     margin-bottom: 25px;
     font-size: 20px;
     color:  rgb(66, 52, 28);
+
 }
 
 .pie-pagina .grupo1 .box ul{
@@ -90,6 +91,7 @@ article {
 
 .pie-pagina .grupo1 .box ul li a:hover{
     color:  rgb(66, 52, 28);
+    text-shadow: 0 0 15px #ffffff;
 }
 
 .pie-pagina .grupo1 .box p{
@@ -112,6 +114,7 @@ article {
 .pie-pagina .grupo1 .red-social a:hover{
     color:  rgb(66, 52, 28);
     font-weight: 30px;
+    text-shadow: 0 0 15px #ffffff;
 }
 
 .pie-pagina .grupo2{
