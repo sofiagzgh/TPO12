@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Contacto</h1>
+
+    <form action="" method="post"> <!-- en action puede ir "codigo.php", ver qué vieron en clase-->
+            <label for="">Tipo de consulta: 
+                <select name="tipo_consulta" required> 
+                    <option value="" selected>Seleccione un tipo de consulta</option> 
+                    <option value="consultas_generales">Consultas generales</option>
+                    <option value="coordinacion_academica">Coordinación académica</option>
+                    <option value="examenes_int">Exámenes internacionales</option>
+                    <option value="empresas">Departamento servicios a empresas</option>
+                </select>
+            </label> 
+            
+
+            <label for="">Sede:
+                <select name="sede" required>
+                    <option value="" selected>Seleccione una sede</option> 
+                    <option value="">Sede 1</option>
+                    <option value="">Sede 2</option>
+                </select>
+            </label> 
+            
+
+            <label>Nombre y apellido:
+                <input type="text" value="" required>
+            </label> 
+            
+
+            <label>Email: 
+                <input type="email" value="" required placeholder="info@dominio.com">
+            </label> 
+            
+
+            <label>Teléfono: 
+                <input type="text" value="">
+            </label> 
+            
+
+            <label for="">Es alumno?
+                <input type="radio" name="alumno" value="Si"> Si
+                <input type="radio" name="alumno" value="No">No
+            </label>
+
+            
+            <textarea name="" id="" cols="50" rows="10" placeholder="Ingrese su consulta..." required></textarea>
+
+            
+            <button>
+                Enviar
+            </button>
+
+            <!-- 
+                ver qué onda esto:
+                <button onclick="alert('Responderemos su consulta a la brevedad')">
+            -->
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
