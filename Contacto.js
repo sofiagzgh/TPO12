@@ -3,7 +3,7 @@ function validaForm() {
     //valido el nombre
     if (document.contacto.nombre.value.length == 0) {
         let error = document.getElementById("errorNombre");
-        error.innerHTML = "Debe ingresar su nombre";
+        error.innerHTML = "Debe ingresar su nombre.";
         error.style.color = "red";
         error.style.marginLeft = "2em";
         document.contacto.nombre.focus()
@@ -13,7 +13,7 @@ function validaForm() {
     //valido el apellido
     if (document.contacto.apellido.value.length == 0) {
         let error = document.getElementById("errorApellido");
-        error.innerHTML = "Debe ingresar su apellido";
+        error.innerHTML = "Debe ingresar su apellido.";
         error.style.color = "red";
         error.style.marginLeft = "2em";
         document.contacto.apellido.focus();
@@ -24,7 +24,7 @@ function validaForm() {
     //Valido el teléfono
      if (document.contacto.telefono.value.length == 0 || document.contacto.telefono.value.length < 8) {
         let error = document.getElementById("errorTelefono");
-        error.innerHTML = "Debe ingresar su telefono";
+        error.innerHTML = "Debe ingresar su teléfono";
         error.style.color = "red"; 
         error.style.marginLeft = "2em";
         document.contacto.telefono.focus();
