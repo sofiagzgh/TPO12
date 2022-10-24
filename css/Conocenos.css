@@ -23,13 +23,25 @@ header .dropdown-item:hover {
     color: white;
 }
 
+/*Contenido*/
+section{
+    padding-top: 7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 2em;
+}
+
+section h3{
+    color: #ffc404;
+}
+
 
 /* FOOTER */
 .pie-pagina{
     width: 100%;
     height: auto;
     background-color: #ffc404;
-
+    
 }
 
 .pie-pagina .grupo1{
