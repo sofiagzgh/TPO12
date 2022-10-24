@@ -24,26 +24,43 @@ header .dropdown-item:hover {
 }
 
 /*FORMULARIO DE CONTACTO*/
-form{
-	box-sizing:border-box;
-    width:100%;
-	padding:25px;
-	margin:left;
-	background-color:#ffc40420;
+
+.body-form{
+    box-sizing: border-box;
+    padding: 2em;
+    width: 100%;
+    margin: left;
+
 }
 
-form label{
+.body-form h2{
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: .5em;
+}
+
+.body-form .content-form{
+    margin: 0;
+    padding: 1em;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.295);
+    width: 100%;
+}
+
+.body-form .content-form h5{
+    padding-bottom: 0.5em;
+}
+
+.body-form .content-form form label{
 	width:100px;
 	font-weight: bold;
 	display:inline-block;
-    margin-left: 2em;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="number"]{
-	width:400px;
-    padding:3px 10px;
+.body-form .content-form form input[type="text"],
+.body-form .content-form form input[type="email"],
+.body-form .content-form form input[type="number"]{
+	width: 400px;;
+    padding: .2em;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
 	background-color:#fff;
@@ -51,11 +68,10 @@ form input[type="number"]{
 	display:inline-block;
 }
 
-form input[type="submit"]{
-	width:510px;
-	padding:8px 16px;
+.body-form .content-form form input[type="submit"]{
+	width:100%;
+	padding: .6em;
     margin-top:32px;
-    margin-left: 2em;
 	border:1px solid #fff;
 	border-radius:5px;
 	display:block;
@@ -63,12 +79,12 @@ form input[type="submit"]{
 	background-color:#ffc404;
 } 
 
-form input[type="submit"]:hover{
+.body-form .content-form form input[type="submit"]:hover{
 	cursor:pointer;
 }
 
-textarea{
-	width:510px;
+.body-form .content-form textarea{
+	width:90%;
 	height:100px;
 	border:1px solid #f6f6f6;
 	border-radius:3px;
@@ -79,11 +95,11 @@ textarea{
 	display:block;
 }
 
-input:invalid {
+.body-form .content-form input:invalid {
     box-shadow: 0 0 5px 1px red;
   }
   
-  input:focus:invalid {
+  .body-form .content-form input:focus:invalid {
     box-shadow: none;
   }
 

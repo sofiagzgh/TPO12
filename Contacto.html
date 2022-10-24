@@ -14,7 +14,7 @@
     <!-- GOOGLE FONTS -->
     <link href="" rel="stylesheet" type="text/css"> 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/Conocenos.css" type="text/css">
+    <link rel="stylesheet" href="css/Contacto.css" type="text/css">
     <!--FONTAWESOME-->
     <script src="https://kit.fontawesome.com/8bab26269c.js" crossorigin="anonymous"></script>
   </head>
@@ -106,57 +106,58 @@
         </div>
       </nav>
     </header>
-<br><br><br><br><br>
 
-  <section>
-      <h2>Contacto</h2>
-      <h4>Envíenos su consulta y será respondida a la brevedad.</h4>
-  </section>
 
+  <section class="body-form">
+    <h2>Contacto</h2>
+    <section class="content-form">
+      <h5>Envíenos su consulta y será respondida a la brevedad.</h5>
+      
   <!--FORMULARIO DE CONTACTO-->
-    <form action="#" target="" method="get" name="contacto" id="contacto" onsubmit="return false">
-       
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"/>
-        <p id="errorNombre"></p>
-
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="valApellido" placeholder="Ingrese su apellido"/>
-        <p id="errorApellido"></p>
+      <form action="#" target="" method="get" name="contacto" id="contacto" onsubmit="return false">
         
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"/>
+          <p id="errorNombre"></p>
 
-        <label for="telefono">Teléfono:</label>
-        <input type="number" name="telefono" id="valtelefono" placeholder="+54 9 11 1111 1111">
-        <p id="errorTelefono"></p>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="valApellido" placeholder="Ingrese su apellido"/>
+          <p id="errorApellido"></p>
+          
 
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="valEmail" placeholder="info@dominio.com" />
-        <p id="errorEmail"></p>
-        
+          <label for="telefono">Teléfono:</label>
+          <input type="number" name="telefono" id="valtelefono" placeholder="+54 9 11 1111 1111">
+          <p id="errorTelefono"></p>
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="valEmail" placeholder="info@dominio.com" />
+          <p id="errorEmail"></p>
+          
+                  
+          <label for="alumno">Es alumno:</label>
+              <input type="radio" name="alumno" value="Si"> Si
+              <input type="radio" name="alumno" value="No">No
+          <p id="errorAlumno"></p>
+          
                 
-        <label for="alumno">Es alumno:</label>
-            <input type="radio" name="alumno" value="Si"> Si
-            <input type="radio" name="alumno" value="No">No
-        <p id="errorAlumno"></p>
-        
-              
-        <label for="">Sede:</label>
-            <select name="sede">
-                <option value="" selected>Seleccione una sede</option> 
-                <option value="caballito">Caballito</option>
-                <option value="microcentro">Microcentro</option>
-            </select>
-        <p id="errorSede"></p>
+          <label for="">Sede:</label>
+              <select name="sede">
+                  <option value="" selected>Seleccione una sede</option> 
+                  <option value="caballito">Caballito</option>
+                  <option value="microcentro">Microcentro</option>
+              </select>
+          <p id="errorSede"></p>
 
-        
-        <label for="mensaje">Mensaje:</label>
-        <textarea name="mensaje" for="mensaje" placeholder="Ingrese su mensaje..." maxlength="300"></textarea>
-        <p id="errorMensaje"></p>
+          
+          <label for="mensaje">Mensaje:</label>
+          <textarea name="mensaje" for="mensaje" placeholder="Ingrese su mensaje..." maxlength="300"></textarea>
+          <p id="errorMensaje"></p>
 
-        <input type="submit" name="button" value="Enviar" onclick="validaForm()">
-       
-    </form>
-   
+          <input type="submit" name="button" value="Enviar" onclick="validaForm()">
+        
+      </form>
+    </section>
+  </section>
 
 
 
