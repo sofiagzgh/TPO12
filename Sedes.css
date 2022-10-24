@@ -23,7 +23,15 @@ header .dropdown-item:hover {
     color: white;
 }
 
+/*SEDES*/
+#sedesMain{
+    display: flex;
+    justify-content: center;;
+}
 
+#caballito, #microcentro{
+    margin: 32px;
+}
 
 /* FOOTER */
 .pie-pagina{
