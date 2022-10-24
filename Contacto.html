@@ -113,7 +113,55 @@
         <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi, architecto et deleniti illum aspernatur eveniet? Id, sed possimus impedit quod nobis distinctio neque eveniet dolorum laboriosam. Harum, et impedit.</h3>
     </section>
 
+        <section>
+      <h2>Contacto</h2>
+      <h4>Envíenos su consulta y será respondida a la brevedad.</h4>
+  </section>
 
+  <!--FORMULARIO DE CONTACTO-->
+    <form action="#" target="" method="get" name="contacto" id="contacto" onsubmit="return false">
+       
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"/>
+        <p id="errorNombre"></p>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="valApellido" placeholder="Ingrese su apellido"/>
+        <p id="errorApellido"></p>
+        
+
+        <label for="telefono">Teléfono:</label>
+        <input type="number" name="telefono" id="valtelefono" placeholder="+54 9 11 1111 1111">
+        <p id="errorTelefono"></p>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="valEmail" placeholder="info@dominio.com" />
+        <p id="errorEmail"></p>
+        
+                
+        <label for="alumno">Es alumno:</label>
+            <input type="radio" name="alumno" value="Si"> Si
+            <input type="radio" name="alumno" value="No">No
+        <p id="errorAlumno"></p>
+        
+              
+        <label for="">Sede:</label>
+            <select name="sede">
+                <option value="" selected>Seleccione una sede</option> 
+                <option value="caballito">Caballito</option>
+                <option value="microcentro">Microcentro</option>
+            </select>
+        <p id="errorSede"></p>
+
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" for="mensaje" placeholder="Ingrese su mensaje..." maxlength="300"></textarea>
+        <p id="errorMensaje"></p>
+
+        <input type="submit" name="button" value="Enviar" onclick="validaForm()">
+       
+    </form>
+   
 
 
 
