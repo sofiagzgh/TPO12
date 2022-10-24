@@ -24,9 +24,21 @@ header .dropdown-item:hover {
 }
 
 /*SEDES*/
+
+section h2{
+    text-align: center;
+    padding-top: 3.5em;
+
+}
+
+section h4{
+    text-align: center;
+    padding-top: 0.5em;
+}
+
 #sedesMain{
     display: flex;
-    justify-content: center;;
+    justify-content: center;
 }
 
 #caballito, #microcentro{
@@ -38,6 +50,8 @@ header .dropdown-item:hover {
     width: 100%;
     height: auto;
     background-color: #ffc404;
+    
+
 
 }
 
@@ -135,6 +149,14 @@ header .dropdown-item:hover {
         padding: 30px 0px;
     }
     
+}
+
+/*Para que las sedes sean responsive*/
+@media screen and (max-width:950px){
+    #sedesMain{
+        display: grid;
+        justify-content: center;
+    }
 }
 
 
