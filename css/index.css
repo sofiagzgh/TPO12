@@ -5,12 +5,13 @@ a {
 /* HEADER */
 .navbar {
     display: flex;
-    position: relative;
+    position: fixed;
     justify-content: space-between;
     align-items: center;
     background-color:#ffc404;
     color: rgb(66, 52, 28);
     box-shadow: 0px 3px 20px 3px rgba(0,0,0,0.5);
+    width: 100%;
 }
 
 .brand-title {
@@ -73,6 +74,14 @@ a {
 }
 
 /* MAIN */
+main{
+    position: relative;
+    z-index:-1;
+}
+
+main div{
+    padding-top: 2em;
+}
 
 article {
     background-color: #ffffff;
