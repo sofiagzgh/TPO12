@@ -189,9 +189,29 @@ section h4{
     font-size: 15px;
 }
 
-/*Para que el footer quede responsive*/
-@media screen and (max-width: 800px) {
-    .pie-pagina .grupo1{
+/* MEDIA QUERY & CSS BREAKPOINTS */
+
+/* POR DEFECTO Large devices: Pantallas grandes (desktops, A PARTIR DE 1200px DE ANCHO) */
+
+/* X-Small devices: Pantallas pequenias en vertical (portrait phones, HASTA 600px DE ANCHO) */
+@media only screen and (max-width: 600px) {
+
+    .pie-pagina .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 30px 0px;
+    }
+}
+
+/* Small devices: Pantallas pequenias en horizontal (landscape phones & tablets, HASTA 900px DE ANCHO) */
+@media only screen and (max-width: 900px) {
+    #sedesMain{
+        display: grid;
+        justify-content: center;
+    }
+
+    .pie-pagina .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
@@ -213,12 +233,12 @@ section h4{
         width: 100%;
     }
 
-    .navbar-links ul {
+    .navbar-links ul, .nav-social {
         width: 100%;
         flex-direction: column;
     }
 
-    .navbar-links ul li {
+    .navbar-links ul li{
         text-align: center;
     }
 
@@ -226,35 +246,12 @@ section h4{
         padding: .5rem 1rem;
     }
 
+    .nav-social{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+
     .navbar-links.active {
         display: flex;
     }
-    
 }
-
-/*Para que las sedes sean responsive*/
-@media screen and (max-width:950px){
-    #sedesMain{
-        display: grid;
-        justify-content: center;
-    }
-}
-
-
-/* MEDIA QUERY & CSS BREAKPOINTS */
-
-/*                mobile-first approach               */
-/* POR DEFECTO X-Small devices: Pantallas pequenias en vertical (portrait phones, HASTA 576px DE ANCHO) */
-
-/* Small devices: Pantallas pequenias en horizontal (landscape phones & tablets, A PARTIR DE 576px Y HASTA 991.98px DE ANCHO) */
-@media only screen and (min-width: 576px) and (max-width: 991.98px) {
-    
-}
-
-/* Medium devices: Pantallas medianas (small desktops, A PARTIR DE 768px Y HASTA 1200px DE ANCHO) */
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    }
-
-/* Large devices: Pantallas grandes (large desktops, A PARTIR DE 1200px DE ANCHO) */
-@media only screen and (min-width: 1200px) {
-    }
