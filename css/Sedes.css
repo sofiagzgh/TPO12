@@ -74,10 +74,13 @@ a {
 }
 
 /*SEDES*/
+section{
+    padding-top: 7em;
+    margin: 2em;
+}
 
 section h2{
     text-align: center;
-    padding-top: 4em;
     color: #ffc404;
 
 }

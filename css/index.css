@@ -269,7 +269,7 @@ a {
 
 /* X-Small devices: Pantallas pequenias en vertical (portrait phones, HASTA 600px DE ANCHO) */
 @media only screen and (max-width: 600px) {
-
+    
     .pie-pagina .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
