@@ -3,24 +3,73 @@ a {
 }
 
 /* HEADER */
-header .navbar {
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ffc404;
+    color: rgb(66, 52, 28);
     box-shadow: 0px 3px 20px 3px rgba(0,0,0,0.5);
 }
 
-header a:hover{
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+    margin-right: 3rem;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(66, 52, 28);
+    padding: 1rem;
+}
+.nav-social{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+.redes a{
+    text-decoration: none;
+    color: rgba(83, 65, 36, 0.842);
+    padding: 0.3rem;
+}
+.navbar-links li a:hover, .nav-social a:hover {
     text-shadow: 0 0 15px #ffffff;
+    color: #000;
 }
 
-header .dropdown-menu {
-    border-width: 3px;
-    border-color: #000;
-    border-radius: 0;
-    box-shadow: 1px 5px 10px 2px rgba(0,0,0,0.5);
+.toggle-button {
+    position: absolute;
+    top: 2.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 }
 
-header .dropdown-item:hover {
-    background-color: #000;
-    color: white;
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(66, 52, 28);
+    border-radius: 10px;
 }
 
 /*FORMULARIO DE CONTACTO*/
@@ -206,6 +255,38 @@ header .dropdown-item:hover {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 30px 0px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+        align-self: center;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
     }
     
 }
