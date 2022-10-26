@@ -215,8 +215,9 @@ section h3{
         padding: .5rem 1rem;
     }
 
-    .redes {
+    .nav-social{
         padding-top: 1rem;
+        padding-left: 0;
     }
 
     .navbar-links.active {
