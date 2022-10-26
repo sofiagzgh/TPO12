@@ -77,6 +77,7 @@ a {
 .body-form{
     box-sizing: border-box;
     padding: 2em;
+    padding-top: 1.5em;
     width: 100%;
     margin: left;
 
@@ -84,7 +85,6 @@ a {
 
 .body-form h2{
     text-align: center;
-    padding-top: 2.5em;
     padding-bottom: .5em;
 }
 
@@ -299,19 +299,13 @@ a {
 
 /* Small devices: Pantallas pequenias en horizontal (landscape phones & tablets, A PARTIR DE 576px Y HASTA 991.98px DE ANCHO) */
 @media only screen and (min-width: 576px) and (max-width: 991.98px) {
-    main {
-        background-color: red;
-    }
+    
 }
 
 /* Medium devices: Pantallas medianas (small desktops, A PARTIR DE 768px Y HASTA 1200px DE ANCHO) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    main {
-        background-color: blue;
-    }}
+    }
 
 /* Large devices: Pantallas grandes (large desktops, A PARTIR DE 1200px DE ANCHO) */
 @media only screen and (min-width: 1200px) {
-    main {
-        background-color: green;
-    }}
+    }

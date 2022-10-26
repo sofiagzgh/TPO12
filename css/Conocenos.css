@@ -74,7 +74,6 @@ a {
 
 /*Contenido*/
 section{
-    padding-top: 7em;
     padding-left: 2em;
     padding-right: 2em;
     margin: 2em;
@@ -82,6 +81,17 @@ section{
 
 section h3{
     color: #ffc404;
+}
+
+#docentes{
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+    margin-bottom: 2em;
+    border: 2px solid;
+    border-color: #ffc404a1;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.295);
+    width: 500px;
 }
 
 
@@ -229,19 +239,13 @@ section h3{
 
 /* Small devices: Pantallas pequenias en horizontal (landscape phones & tablets, A PARTIR DE 576px Y HASTA 991.98px DE ANCHO) */
 @media only screen and (min-width: 576px) and (max-width: 991.98px) {
-    main {
-        background-color: red;
-    }
+    
 }
 
 /* Medium devices: Pantallas medianas (small desktops, A PARTIR DE 768px Y HASTA 1200px DE ANCHO) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-    main {
-        background-color: blue;
-    }}
+    }
 
 /* Large devices: Pantallas grandes (large desktops, A PARTIR DE 1200px DE ANCHO) */
 @media only screen and (min-width: 1200px) {
-    main {
-        background-color: green;
-    }}
+    }
