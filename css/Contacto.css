@@ -250,7 +250,7 @@ a {
 
 /*Para que el footer quede responsive*/
 @media screen and (max-width: 800px) {
-    .pie-pagina .grupo1{
+    .pie-pagina .grupo1 {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
@@ -272,12 +272,12 @@ a {
         width: 100%;
     }
 
-    .navbar-links ul {
+    .navbar-links ul, .nav-social {
         width: 100%;
         flex-direction: column;
     }
 
-    .navbar-links ul li {
+    .navbar-links ul li{
         text-align: center;
     }
 
@@ -285,10 +285,13 @@ a {
         padding: .5rem 1rem;
     }
 
+    .redes {
+        padding-top: 1rem;
+    }
+
     .navbar-links.active {
         display: flex;
     }
-    
 }
 
 

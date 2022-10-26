@@ -208,17 +208,21 @@ article h2 a:hover {
         width: 100%;
     }
 
-    .navbar-links ul {
+    .navbar-links ul, .nav-social {
         width: 100%;
         flex-direction: column;
     }
 
-    .navbar-links ul li {
+    .navbar-links ul li{
         text-align: center;
     }
 
     .navbar-links ul li a {
         padding: .5rem 1rem;
+    }
+
+    .redes {
+        padding-top: 1rem;
     }
 
     .navbar-links.active {
