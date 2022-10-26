@@ -79,7 +79,7 @@ a {
 .body-form{
     box-sizing: border-box;
     padding: 2em;
-    padding-top: 7em;
+    padding-top: 3em;
     width: 100%;
     margin: left;
 
@@ -114,7 +114,7 @@ a {
 .body-form .content-form form input[type="text"],
 .body-form .content-form form input[type="email"],
 .body-form .content-form form input[type="number"]{
-	width: 400px;;
+	width: 60%;
     padding: .2em;
 	border:1px solid #d6d6d6ef;
 	border-radius:3px;
@@ -264,6 +264,11 @@ a {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
         padding: 30px 0px;
+    }
+
+    .body-form{
+        padding-top: 4em;
+    
     }
 }
 

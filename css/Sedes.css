@@ -95,6 +95,11 @@ section h4{
     justify-content: center;
 }
 
+iframe{
+    max-width: 100%;
+    
+}
+
 #caballito, #microcentro{
     margin: 32px;
 }
