@@ -55,6 +55,9 @@ a {
     text-shadow: 0 0 15px #ffffff;
     color: #000;
 }
+*{
+    font-family: 'Roboto Slab', serif;
+}
 
 .toggle-button {
     position: absolute;

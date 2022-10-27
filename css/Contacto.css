@@ -73,6 +73,9 @@ a {
     background-color: rgb(66, 52, 28);
     border-radius: 10px;
 }
+*{
+    font-family: 'Roboto Slab', serif;
+}
 
 /*FORMULARIO DE CONTACTO*/
 
