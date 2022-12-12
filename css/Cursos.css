@@ -80,14 +80,14 @@ a {
 /*CONTENIDO*/
 
 section{
-    padding-top: 7em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 5.5em 2em 1em 2em;
     margin: 2em;
 }
 
 section h3{
     color: #ffc404;
+    padding-top: 1.5em;
+    padding-bottom: .5em;
 }
 
 
@@ -183,6 +183,11 @@ section h3{
 
 .pie-pagina .grupo2 small{
     font-size: 15px;
+}
+
+.pie-pagina .grupo2 small a{
+    color: rgb(13, 17, 23);
+    font-weight: bolder;
 }
 
 /* MEDIA QUERY & CSS BREAKPOINTS */

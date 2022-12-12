@@ -267,6 +267,11 @@ a {
     font-size: 15px;
 }
 
+.pie-pagina .grupo2 small a{
+    color: rgb(13, 17, 23);
+    font-weight: bolder;
+}
+
 /* MEDIA QUERY & CSS BREAKPOINTS */
 
 /* POR DEFECTO Large devices: Pantallas grandes (desktops, A PARTIR DE 1200px DE ANCHO) */
